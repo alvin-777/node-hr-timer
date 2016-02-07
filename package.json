@@ -1,0 +1,33 @@
+{
+  "name": "node-hr-timer",
+  "version": "0.1.0",
+  "description": "A high resolution timer that wraps Nodejs process.hrtime()",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alvin-777/node-hr-timer.git"
+  },
+  "keywords": [
+    "high resolution",
+    "hires",
+    "timer",
+    "node",
+    "nodejs",
+    "hrtime"
+  ],
+  "author": {
+    "name": "Alvin",
+    "url": "https://github.com/alvin-777"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alvin-777/node-hr-timer/issues"
+  },
+  "homepage": "https://github.com/alvin-777/node-hr-timer#readme",
+  "engines": {
+    "node": "*"
+  }
+}
