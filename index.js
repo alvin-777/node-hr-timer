@@ -1,17 +1,19 @@
 
 "use strict";
 
+const _start = Symbol('Start time');
+
 class Timer {
   constructor() {
     this.restart();
   }
 
   restart() {
-    this._start = process.hrtime();
+    this[_start] = process.hrtime();
   }
 
   getElapsed() {
-    return process.hrtime(this._start);
+    return process.hrtime(this[_start]);
   }
 
   toString() {
